@@ -1,4 +1,3 @@
-
 activo=1
 while activo==1:
     condicional=int(input('ingresa la operacion. 1. Suma 2. Resta 3.Multiplicación 4.En tu culo mi aparato ajskdajsd: '))
@@ -34,4 +33,3 @@ while activo==1:
     else:
         print("sexo")
 
-        # ola
