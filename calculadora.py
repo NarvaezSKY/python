@@ -33,3 +33,5 @@ while activo==1:
 
     else:
         print("sexo")
+
+        # ola
