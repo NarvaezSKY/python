@@ -1,30 +1,21 @@
 import random
-maquina=random.string("priedra","papel","tijera")
-eleccion=input("Ingresa tu eleccion: ")
+maquina=random.randint(1,3)
+if maquina == 1:
+    maquina="piedra"
+if maquina == 2:
+    maquina="papel"
+if maquina == 3:
+    maquina="tijera"
+
+opcion=int(input("ingresa tu eleccion: (1. Piedra - 2. Papel - 3. Tijera)"))
+
+if opcion == 1 and maquina ==1:
+        print("empate")
+elif opcion == 2 and maquina ==2:
+        print("empate")
+elif opcion == 3 and maquina ==3:
+        print("empate")
+elif opcion==1  
 
 
-            
-if eleccion==maquina: 
-    print("empate. Eleccion maquina:", maquina)  
-
-elif eleccion=="tijera" and maquina=="papel":
-        print("ganas. Eleccion maquina:", maquina)  
-        
-elif eleccion=="tijera" and maquina=="piedra":
-        print("pierdes. Eleccion maquina:", maquina)  
-        
-elif eleccion=="papel" and maquina=="piedra":
-        print("ganas. Eleccion maquina:", maquina) 
-
-elif eleccion=="papel" and maquina=="tijera":
-        print("pierdes. Eleccion maquina:", maquina)
-        
-elif eleccion=="piedra" and maquina=="tijera":
-        print("ganas. Eleccion maquina:", maquina) 
-        
-elif eleccion=="piedra" and maquina=="papel":
-        print("pierdes. Eleccion maquina:", maquina)    
-    
-else:
-    ("opción invalida")
         

@@ -1,4 +1,5 @@
 maquina="piedra"
+
 eleccion=input("Ingresa tu eleccion: ")
 
 if eleccion=="tijera":
@@ -12,4 +13,3 @@ elif eleccion=="papel":
     
 else:
     ("opción invalida")
-        
